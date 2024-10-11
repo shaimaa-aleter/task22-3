@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 600px;
+}
+
+
+.left-column {
+    display: inline-block;
+    flex-direction: row; 
+    gap: 20px;
+}
+
+.right-column {
+    display: flex;
+   flex-direction:row;
+   gap: 20px;
+   
+}
+
+/* تنسيق المستطيلات */
+ .rectangle1, .rectangle2, .rectangle3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px; 
+    margin-bottom: 20px;
+    border: 2px solid rgb(65, 108, 123);
+    width: 240px;
+    height:100px ;
+}
+
+/* ترتيب المربعات داخل المستطيلات */
+.rectangle1 {
+    display: flex;
+    justify-content: flex-start; /* المربعات في المنتصف */
+    align-items: center;
+}
+
+.rectangle2 {
+    display:flex ;
+    justify-content: flex-start; /* المربعات في الأعلى */
+    align-items: flex-start;
+    
+}
+
+.rectangle3 {
+    display: flex;
+    justify-content: flex-start; /* المربعات في الأسفل */
+    align-items: flex-end;
+}
+
+/* تنسيق المربعات */
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(26, 12, 12);
+    border: 2px solid #5C4033; 
+    margin: 10px;
+}
+.square1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(26, 12, 12);
+    border: 2px solid #5C4033; 
+    margin: 10px;
+  
+    
+}
+.rectangle6, .rectangle4, .rectangle5 {
+    display: flex;
+   
+    flex-direction: column-reverse;
+    gap: 5px; 
+    margin-bottom: 20px;
+    border: 2px solid rgb(65, 108, 123);
+    width: 100px;
+    height:240px ;
+}
+.rectangle4 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.rectangle5 {
+    display:flex ;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    
+}
+
+.rectangle6 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
